@@ -81,15 +81,15 @@
             
             <div class="grid project-image-grid">
             
-                <div class=""
+                <div class=""></div>
             
             </div>
             
             <div class="project-nav">
-                <a href="" class="previous"><</a>
-                <a href="" class="next">></a>
-                <a href="" class="scroll-top">top</a>
-                <a href="" class="home">grid</a>
+                <a href="" class="previous"></a>
+                <a href="" class="next"></a>
+                <a href="" class="up"></a>
+                <a href="" class="back-to-thumbs"></a>
             </div>
 
 		</div>
