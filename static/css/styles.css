@@ -247,7 +247,7 @@ a:hover {
     width: 100%;
 }
 
-.project-title {
+.thumb .project-title {
     position: absolute;
     top: 2px;
     left: 12px;
@@ -265,7 +265,7 @@ a:hover {
     opacity: 1;
 }
 
-.project-title h2 {
+.thumb .project-title h2 {
     display: table-cell; 
     vertical-align: middle; 
     text-align: center; 
@@ -332,6 +332,109 @@ a:hover {
 }
 
 
+/**========================================================
+    PROJECT DETAILS
+========================================================**/
+
+.project .project-title {
+    margin-bottom: 6px;
+}
+
+.project-info-grid {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.project-info-grid .col {
+    float: left;
+    padding: 0 10px;
+}
+
+.project-info-grid .col-wrap {
+    padding-top: 6px;
+    border-top: 2px solid #000;
+}
+
+.project-info-grid .c1,
+.project-info-grid .c2,
+.project-info-grid .c3,
+.project-info-grid .c4 {
+    width: 25%;
+}
+
+.project-info-grid .c1-c2 {
+    width: 50%;
+}
+
+.project-description {
+    position: relative;
+}
+
+.project-description p {
+    line-height: 1.3em;
+    margin-bottom: 18px;
+}
+
+.project-description p:last-of-type {
+    margin-bottom: 0;
+}
+
+.project-description .social-links {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.project-description .social-links a {
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    background: #ccc;
+}
+
+.project-credits h3,
+.project-credits p,
+.project-awards p {
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+
+.project-nav {
+    position: relative;
+    height: 40px;
+    text-align: center;
+}
+
+.project-nav a {
+    position: absolute;
+}
+
+.project-nav .previous,
+.project-nav .next {
+    bottom: 0;
+}
+
+.project-nav .previous {
+    left: 0;
+}
+
+.project-nav .next {
+    right: 0;
+}
+
+.project-nav .home,
+.project-nav .top {
+    left: 50%;
+    margin-left: -5px;
+}
+
+
+.project-nav .home {
+    top: 12px;
+}
 
 /**========================================================
     FOOTER

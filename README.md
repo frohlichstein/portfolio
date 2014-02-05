@@ -1,4 +1,4 @@
 portfolio
 =========
 
-Portfolio Site v1
+Static Portfolio Templates

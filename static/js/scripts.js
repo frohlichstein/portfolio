@@ -18,7 +18,7 @@ $(function(){
 
     function resize_thumbs() {
         var y = $('.thumb').width();
-        $('.project-title').css('height', y-4).css('width', y-4);
+        $('.thumb .project-title').css('height', y-4).css('width', y-4);
     }
 
 });
